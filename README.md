@@ -1,5 +1,7 @@
 # Welcome to the Intersection of Cybersecurity and Artificial Intelligence!
 
+![knowledge base](https://cyberpedia.reasonlabs.com/IMG/knowledge%20base.jpg)
+
 This repository is born from my final project for University of Tabriz, CS faculty (BCs), driven by a deep passion for fortifying the digital landscape. Building upon the immense value of shared knowledge, I aim to cultivate a vibrant hub for cybersecurity enthusiasts, practitioners, and academics.
 
 Here, we'll delve into the ever-evolving realm of cybersecurity, exploring the transformative potential of Artificial Intelligence (AI) in safeguarding our digital assets and infrastructure.
