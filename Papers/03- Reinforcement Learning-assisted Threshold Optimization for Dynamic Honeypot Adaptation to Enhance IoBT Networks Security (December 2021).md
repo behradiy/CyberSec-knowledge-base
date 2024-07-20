@@ -1,4 +1,4 @@
-## Reinforcement Learning for Dynamic Honeypot Adaptation in IoBT Networks Security (July 2024)
+## Reinforcement Learning for Dynamic Honeypot Adaptation in IoBT Networks Security (December 2021)
 
 [This paper](https://www.researchgate.net/publication/358092840_Reinforcement_Learning-assisted_Threshold_Optimization_for_Dynamic_Honeypot_Adaptation_to_Enhance_IoBT_Networks_Security), published in [ResearchGate](https://www.researchgate.net) and gathered by [Elnaz Limouchi](https://www.researchgate.net/profile/Elnaz-Limouchi) and [Imadeldin Mahgoub
 ](https://www.researchgate.net/profile/Imadeldin-Mahgoub), explores a novel approach to securing Internet of Battlefield Things ([IoBT](https://iobt.illinois.edu/)) networks using reinforcement learning and dynamic honeypot adaptation.

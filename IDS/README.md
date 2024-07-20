@@ -11,6 +11,6 @@ The `IDS` folder focuses on Intrusion Detection Systems (IDS), critical componen
 
 **Understanding and Implementing IDS**
 
-This folder helps you grasp the core principles of IDS and guides you in implementing them within your network. A well-configured IDS can significantly enhance your security posture.
+This folder helps you grasp the core principles of IDS and guides you in implementing them within your network. A well-configured IDS can significantly enhance your security posture. Just keep following the readme files from top to bottom, all the needed resources are linked vividly, also feel free to [DM](https://t.me/B3hrady) me for extra information or just say hello or something :smile:
 
 **Contribute your IDS expertise! We welcome information on new IDS techniques or configuration recommendations.**
