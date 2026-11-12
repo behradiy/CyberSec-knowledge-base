@@ -6,6 +6,26 @@ This repository is born from my final project for University of Tabriz, CS facul
 
 Here, we'll delve into the ever-evolving realm of cybersecurity, exploring the transformative potential of Artificial Intelligence (AI) in safeguarding our digital assets and infrastructure.
 
+# 2026 Update: Catching Up on Two Big Years
+
+This repository was quiet from July 2024 to November 2026, and the field did not wait. AI went from a promising research topic to something that finds real zero-days, runs real attacks and defends real networks. This update catches up on all of it. Every claim is linked to its source, and claims that only a vendor has made are labeled as such.
+
+**Start here:** [Timeline 2024-2026](Timeline%202024-2026.md), a month-by-month overview of everything important that happened.
+
+| Folder | What's inside |
+|---|---|
+| [Honeypots](Honeypots/) | Honeypot basics and intelligent honeypots, plus **new:** LLM-powered honeypots and deception aimed at AI attackers |
+| [IDS](IDS/) | IDS basics and a learning roadmap, plus **new:** the reality check on AI traffic models, and the "agentic SOC" |
+| [AI-Attack-and-Defense](AI-Attack-and-Defense/) | **New folder:** AI systems that find and fix vulnerabilities, and how attackers actually use AI |
+| [Securing-AI](Securing-AI/) | **New folder:** prompt injection and attacks on AI agents, and how to defend them |
+| [Papers](Papers/) | Paper reviews (now 9) and a reading list of the strongest 2024–2026 papers |
+
+**The three biggest shifts since 2024:**
+
+1. **AI finds real vulnerabilities at scale.** From DARPA's AI Cyber Challenge (2025) to frontier models finding thousands of zero-days (2026), discovery is no longer the bottleneck. Patching is.
+2. **Attackers use AI in real operations.** Threat-intelligence teams documented malware that queries LLMs, AI-orchestrated intrusions and the first AI-built exploits in the wild.
+3. **AI systems became an attack surface.** Prompt injection, poisoned tools and hijacked agents are now a core part of security work, and honeypots have adapted to trap AI attackers too.
+
 # Why Collaboration Matters
 
 By fostering a collaborative environment, we can collectively:
