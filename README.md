@@ -10,10 +10,10 @@ An open, growing knowledge base on honeypots, intrusion detection, AI-powered at
 Born from my B.Sc. final project at the University of Tabriz. Fully updated for 2024–2026.
 
 [![Last commit](https://img.shields.io/github/last-commit/behradiy/CyberSec-knowledge-base?style=flat-square&label=last%20update)](https://github.com/behradiy/CyberSec-knowledge-base/commits/main)
-[![Articles](https://img.shields.io/badge/articles-14-2ea44f?style=flat-square)](#contents)
+[![Articles](https://img.shields.io/badge/articles-21-2ea44f?style=flat-square)](#contents)
 [![Paper reviews](https://img.shields.io/badge/paper%20reviews-9-8957e5?style=flat-square)](Papers/)
 [![Timeline](https://img.shields.io/badge/timeline-Jul%202024%20%E2%86%92%20Nov%202026-0969da?style=flat-square)](Timeline%202024-2026.md)
-[![Stars](https://img.shields.io/github/stars/behradiy/CyberSec-knowledge-base?style=flat-square)](https://github.com/behradiy/CyberSec-knowledge-base/stargazers)
+[![Stars](https://img.shields.io/github/stars/behradiy/CyberSec-knowledge-base?style=flat-square)](https://github.com/behradiy/CyberSec-knowledge-base)
 
 <p><b>
 <a href="Honeypots/">🍯 Honeypots</a> ·
@@ -46,7 +46,8 @@ Born from my B.Sc. final project at the University of Tabriz. Fully updated for 
 |---|---|
 | 🍯 Understand what a honeypot is | [Honeypots: the basics](Honeypots/01-what%20are%20them.md) |
 | 🐕 Learn how intrusion detection works | [What is an IDS?](IDS/01-what%20is%20that.md) |
-| 🧑‍💻 Become an IDS developer | [What should you learn](IDS/02-what%20should%20you%20learn.md) → [Network fundamentals roadmap](IDS/0201-Network%20Fundamentals.md) |
+| 🧑‍💻 Become an IDS developer | [The 8-step IDS developer roadmap](IDS/02-what%20should%20you%20learn.md), starting with [Network fundamentals](IDS/0201-Network%20Fundamentals.md) |
+| 🔎 Write detection rules (Suricata, Sigma, YARA-X) | [Intrusion detection techniques](IDS/0204-Intrusion%20Detection%20Techniques.md) |
 | 🗓️ Catch up on 2024–2026 in ten minutes | [Timeline 2024-2026](Timeline%202024-2026.md) |
 | 🤖 Build a honeypot powered by an LLM | [LLM-powered honeypots](Honeypots/04-LLM-powered%20honeypots.md) |
 | 🕵️ Trap AI hacking agents | [Deception against AI attackers](Honeypots/05-Deception%20against%20AI%20attackers.md) |
@@ -74,9 +75,9 @@ Decoy systems that lure attackers in and study them, from classic traps to honey
 
 ### 🐕 [IDS](IDS/)
 
-Intrusion detection from the ground up: how it works, what to learn, a networking roadmap, and how AI changed detection and the SOC.
+Intrusion detection from the ground up: how it works, a complete 8-step developer roadmap, and how AI changed detection and the SOC.
 
-**5 articles** · `NEW` agentic SOC
+**12 articles** · `NEW` full roadmap
 
 </td>
 </tr>
@@ -128,6 +129,8 @@ Everything important that happened in cybersecurity from July 2024 to November 2
 
 This repository was quiet from July 2024 to November 2026, and the field did not wait. AI went from a promising research topic to something that finds real zero-days, runs real attacks and defends real networks. This update catches up on all of it. Every recent claim is linked to its source, and claims that only a vendor has made are labeled as such.
 
+**Also new: the complete IDS developer roadmap.** Eight step-by-step guides, from network fundamentals to machine learning, each with phases, time estimates, and checked free courses, books and practice labs. → [Start the roadmap](IDS/02-what%20should%20you%20learn.md)
+
 **The three biggest shifts since 2024:**
 
 1. **AI finds real vulnerabilities at scale.** From DARPA's AI Cyber Challenge (2025) to frontier models finding thousands of zero-days (2026), discovery is no longer the bottleneck. Patching is. → [AI bug hunters](AI-Attack-and-Defense/01-AI%20bug%20hunters.md)
@@ -166,20 +169,22 @@ Not sure where to begin? Pick the path that fits you and follow it top to bottom
 2. [What is an IDS?](IDS/01-what%20is%20that.md)
 3. [What should you learn](IDS/02-what%20should%20you%20learn.md)
 4. [Network fundamentals roadmap](IDS/0201-Network%20Fundamentals.md)
-5. [Intelligent honeypots](Honeypots/02-Intelligentones.md)
-6. [Honeypots & AI](Honeypots/03-integration%20with%20AI.md)
-7. [Timeline 2024-2026](Timeline%202024-2026.md)
+5. [Security concepts roadmap](IDS/0202-Security%20Concepts.md)
+6. [Intelligent honeypots](Honeypots/02-Intelligentones.md)
+7. [Honeypots & AI](Honeypots/03-integration%20with%20AI.md)
+8. [Timeline 2024-2026](Timeline%202024-2026.md)
 
 </td>
 <td valign="top">
 
 1. [LLM-powered honeypots](Honeypots/04-LLM-powered%20honeypots.md)
 2. [Deception against AI attackers](Honeypots/05-Deception%20against%20AI%20attackers.md)
-3. [AI meets network detection](IDS/03-AI%20meets%20network%20detection.md)
-4. [The agentic SOC](IDS/04-The%20agentic%20SOC.md)
-5. [How attackers use AI](AI-Attack-and-Defense/02-How%20attackers%20use%20AI.md)
-6. [Attacks on AI agents](Securing-AI/01-Attacks%20on%20AI%20agents.md)
-7. [Defending AI agents](Securing-AI/02-Defending%20AI%20agents.md)
+3. [Intrusion detection techniques](IDS/0204-Intrusion%20Detection%20Techniques.md)
+4. [AI meets network detection](IDS/03-AI%20meets%20network%20detection.md)
+5. [The agentic SOC](IDS/04-The%20agentic%20SOC.md)
+6. [How attackers use AI](AI-Attack-and-Defense/02-How%20attackers%20use%20AI.md)
+7. [Attacks on AI agents](Securing-AI/01-Attacks%20on%20AI%20agents.md)
+8. [Defending AI agents](Securing-AI/02-Defending%20AI%20agents.md)
 
 </td>
 <td valign="top">
@@ -217,14 +222,21 @@ Click a section to see every article in it.
 </details>
 
 <details>
-<summary><b>🐕 Intrusion Detection (IDS)</b> · 5 articles</summary>
+<summary><b>🐕 Intrusion Detection (IDS)</b> · 12 articles</summary>
 <br>
 
 | # | Article | What you'll learn |
 |---|---|---|
 | 01 | [What is an IDS?](IDS/01-what%20is%20that.md) | NIDS vs. HIDS, how detection works and where it falls short |
-| 02 | [What should you learn](IDS/02-what%20should%20you%20learn.md) | The skills needed to build intrusion detection systems |
-| 0201 | [Network fundamentals roadmap](IDS/0201-Network%20Fundamentals.md) | A phased plan with courses, books and practice tools |
+| 02 | [What should you learn](IDS/02-what%20should%20you%20learn.md) | The skills needed to build intrusion detection systems, and the 8-step roadmap at a glance |
+| 0201 | [Network fundamentals](IDS/0201-Network%20Fundamentals.md) | TCP/IP, traffic analysis and Wireshark |
+| 0202 | [Security concepts](IDS/0202-Security%20Concepts.md) `NEW` | Attack vectors, MITRE ATT&CK, threat modeling, CVE/CVSS/EPSS/KEV |
+| 0203 | [Programming for IDS](IDS/0203-Programming%20for%20IDS.md) `NEW` | Python, C, Rust, Suricata Lua, Zeek scripting and Go |
+| 0204 | [Intrusion detection techniques](IDS/0204-Intrusion%20Detection%20Techniques.md) `NEW` | Signatures, anomalies, Sigma, YARA-X, metrics and tuning |
+| 0205 | [Operating system internals](IDS/0205-Operating%20System%20Internals.md) `NEW` | Linux, eBPF, Windows ETW and Sysmon, host-based IDS tools |
+| 0206 | [Network security tools](IDS/0206-Network%20Security%20Tools.md) `NEW` | Wireshark, Zeek, Suricata, Snort 3, Security Onion, with current versions |
+| 0207 | [Cryptography for IDS developers](IDS/0207-Cryptography%20for%20IDS%20Developers.md) `NEW` | TLS 1.3, QUIC, JA4, Encrypted Client Hello, post-quantum |
+| 0208 | [Machine learning for IDS](IDS/0208-Machine%20Learning%20for%20IDS.md) `NEW` | ML baselines, datasets and evaluating detectors honestly |
 | 03 | [AI meets network detection](IDS/03-AI%20meets%20network%20detection.md) `NEW` | Shortcut learning in AI traffic models, dataset problems, LLMs as detectors, Suricata 8 and Zeek 9 |
 | 04 | [The agentic SOC](IDS/04-The%20agentic%20SOC.md) `NEW` | AI agents that triage alerts, what vendors shipped and what the evidence shows |
 
