@@ -30,14 +30,20 @@ Each review summarizes the paper and ends with an "As a Reviewer, My Focus" sect
 | 07 | [SoK: DARPA's AI Cyber Challenge (AIxCC)](07-%20SoK%20-%20DARPA%27s%20AI%20Cyber%20Challenge%20%28AIxCC%29%20%28February%202026%29.md) | AI vulnerability discovery | 2026 |
 | 08 | [Defeating Prompt Injections by Design (CaMeL)](08-%20Defeating%20Prompt%20Injections%20by%20Design%20%28March%202025%29.md) | Securing AI agents | 2025 |
 | 09 | [How to Factor 2048 bit RSA Integers with Less than a Million Noisy Qubits](09-%20How%20to%20Factor%202048%20bit%20RSA%20Integers%20with%20Less%20than%20a%20Million%20Noisy%20Qubits%20%28May%202025%29.md) | Post-quantum cryptography | 2025 |
+| 10 | [LLM Agent Honeypot: Monitoring AI Hacking Agents in the Wild](10-%20LLM%20Agent%20Honeypot%20-%20Monitoring%20AI%20Hacking%20Agents%20in%20the%20Wild%20%28October%202024%29.md) | Honeypots vs. AI attackers | 2024 |
+| 11 | [Hypergame-Theoretic Deep RL for Cyber Deception (honey drones)](11-%20Cyber%20Deception%20for%20Mission%20Surveillance%20via%20Hypergame-Theoretic%20Deep%20Reinforcement%20Learning%20%28March%202026%29.md) | Honeypots & RL | 2026 |
+| 12 | [ExploitGym: Can AI Agents Turn Vulnerabilities into Real Attacks?](12-%20ExploitGym%20-%20Can%20AI%20Agents%20Turn%20Security%20Vulnerabilities%20into%20Real%20Attacks%20%28May%202026%29.md) | AI exploitation | 2026 |
+| 13 | [The Attacker Moves Second: Adaptive Attacks Bypass LLM Defenses](13-%20The%20Attacker%20Moves%20Second%20-%20Adaptive%20Attacks%20Bypass%20LLM%20Jailbreak%20and%20Prompt%20Injection%20Defenses%20%28October%202025%29.md) | Securing AI agents | 2025 |
+| 14 | [Randomized Controlled Trials for Phishing Triage Agent](14-%20Randomized%20Controlled%20Trials%20for%20Phishing%20Triage%20Agent%20%28November%202025%29.md) | AI in the SOC | 2025 |
+| 15 | [Fully Automated Spear Phishing with LLMs, Validated on Human Subjects](15-%20Evaluating%20LLMs%27%20Capability%20to%20Launch%20Fully%20Automated%20Spear%20Phishing%20Campaigns%20%28November%202024%29.md) | Attackers using AI | 2024 |
 
 **Reading List (2024–2026): Strong Papers Waiting for a Review**
 
-* *Honeypots & deception:* [LLM Agent Honeypot](https://arxiv.org/abs/2410.13919) · [SoK: Honeypots & LLMs](https://arxiv.org/abs/2510.25939) · [Rouxii: Deception-Aware AI Pentesters](https://arxiv.org/abs/2609.26555) · [AgentSnare](https://arxiv.org/abs/2607.26998) · [HT-DRL honey drones](https://arxiv.org/abs/2603.20981)
-* *Detection & SOC:* [SoK: Encrypted Traffic Classifiers](https://arxiv.org/abs/2503.20093) · [ExCyTIn-Bench](https://arxiv.org/abs/2507.14201) · [Randomized Controlled Trials for Phishing Triage Agent](https://arxiv.org/abs/2511.13860) · [ALERT-BENCH](https://arxiv.org/abs/2610.10608)
-* *AI vulnerability research:* [ExploitGym](https://arxiv.org/abs/2605.11086) · [CyberGym](https://arxiv.org/abs/2506.02548) · [Cybench](https://arxiv.org/abs/2408.08926)
-* *Attackers using AI:* [Fully Automated Spear Phishing, Validated on Human Subjects](https://arxiv.org/abs/2412.00586) · [Ransomware 3.0](https://arxiv.org/abs/2508.20444)
-* *Securing AI:* [The Attacker Moves Second](https://arxiv.org/abs/2510.09023) · [Design Patterns for Securing LLM Agents](https://arxiv.org/abs/2506.08837) · [Poisoning Requires a Near-constant Number of Samples](https://arxiv.org/abs/2510.07192) · [Indirect Prompt Injection in the Wild](https://arxiv.org/abs/2604.27202)
+* *Honeypots & deception:* [SoK: Honeypots & LLMs](https://arxiv.org/abs/2510.25939) · [Rouxii: Deception-Aware AI Pentesters](https://arxiv.org/abs/2609.26555) · [AgentSnare](https://arxiv.org/abs/2607.26998)
+* *Detection & SOC:* [SoK: Encrypted Traffic Classifiers](https://arxiv.org/abs/2503.20093) · [ExCyTIn-Bench](https://arxiv.org/abs/2507.14201) · [ALERT-BENCH](https://arxiv.org/abs/2610.10608)
+* *AI vulnerability research:* [CyberGym](https://arxiv.org/abs/2506.02548) · [Cybench](https://arxiv.org/abs/2408.08926)
+* *Attackers using AI:* [Ransomware 3.0](https://arxiv.org/abs/2508.20444)
+* *Securing AI:* [Design Patterns for Securing LLM Agents](https://arxiv.org/abs/2506.08837) · [Poisoning Requires a Near-constant Number of Samples](https://arxiv.org/abs/2510.07192) · [Indirect Prompt Injection in the Wild](https://arxiv.org/abs/2604.27202)
 
 **Accessing Papers**
 
