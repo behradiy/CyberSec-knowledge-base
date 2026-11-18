@@ -6,7 +6,7 @@ Here's a twist nobody expected when this folder started: some of the bees are no
 
 **Are AI Agents Really Attacking? Palisade's Honeypot Says: A Little**
 
-In October 2024, Palisade Research launched the **LLM Agent Honeypot**: a modified Cowrie SSH honeypot with prompt injections hidden in its banner, command outputs and files. A visitor counts as a "confirmed" AI agent only if it obeys an injection *and* answers faster than a human could (about 1.5 seconds).
+In October 2024, Palisade Research launched the **LLM Agent Honeypot**: a modified Cowrie SSH honeypot with prompt injections hidden in its banner, command outputs and files. A visitor counts as a "confirmed" AI agent only if it obeys an injection *and* answers faster than a human could (the authors' own test agents typically replied within about 1.7 seconds). Full review in [Papers/10](../Papers/10-%20LLM%20Agent%20Honeypot%20-%20Monitoring%20AI%20Hacking%20Agents%20in%20the%20Wild%20%28October%202024%29.md).
 
 * **Early 2025:** about 8.1 million connection attempts, 8 *potential* agents.
 * **Mid-2026 (old dashboard):** about 24.1 million interactions, 14 potential and 3 confirmed agents.
@@ -46,7 +46,7 @@ Attackers are adapting. The Rouxii agent (September 2026) was trained to be dece
 
 The reinforcement-learning approach reviewed in [Papers/03](../Papers/03-%20Reinforcement%20Learning-assisted%20Threshold%20Optimization%20for%20Dynamic%20Honeypot%20Adaptation%20to%20Enhance%20IoBT%20Networks%20Security%20%28December%202021%29.md) is alive and well:
 
-* **HT-DRL (March 2026):** combines hypergame theory with deep reinforcement learning to steer "honey drones" that draw denial-of-service attacks away from real drone missions, improving mission performance by up to 2×. It is the closest modern relative of the IoBT honeypot paper.
+* **HT-DRL (March 2026):** combines hypergame theory with deep reinforcement learning to steer "honey drones" that draw denial-of-service attacks away from real drone missions, improving mission performance by up to 2×. It is the closest modern relative of the IoBT honeypot paper. Full review in [Papers/11](../Papers/11-%20Cyber%20Deception%20for%20Mission%20Surveillance%20via%20Hypergame-Theoretic%20Deep%20Reinforcement%20Learning%20%28March%202026%29.md).
 * **Towards Agentic Honeynet Configuration (AgenNet@NOMS 2026):** an LLM agent reads IDS alerts and reconfigures which honeypots are exposed. Results are preliminary, but it connects the [IDS](../IDS/) and Honeypots folders of this repo nicely.
 
 **The Business of Deception**

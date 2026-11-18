@@ -38,7 +38,7 @@ Labs use different settings, so treat these as trends, not exact comparisons.
 | [CVE-Bench](https://arxiv.org/abs/2503.17332) | Exploiting real web-app CVEs | 13% at release (March 2025) to 90% (February 2026) |
 | [CyberGym](https://arxiv.org/abs/2506.02548) | Reproducing 1,507 real vulnerabilities | ~20% at release (June 2025) to 83.1% (April 2026) |
 | [BountyBench](https://arxiv.org/abs/2505.15216) | Detect, exploit and patch real bug-bounty bugs | Patching (90%) far easier than detecting (12.5%) |
-| [ExploitGym](https://arxiv.org/abs/2605.11086) | Turning 898 known crashes into working exploits | Best model 157 of 898; scores collapse when exploit mitigations are on |
+| [ExploitGym](https://arxiv.org/abs/2605.11086) ([review](../Papers/12-%20ExploitGym%20-%20Can%20AI%20Agents%20Turn%20Security%20Vulnerabilities%20into%20Real%20Attacks%20%28May%202026%29.md)) | Turning 898 known crashes into working exploits | Best model 157 of 898; scores collapse when exploit mitigations are on |
 
 **The Catch: Problems Nobody Has Solved Yet**
 

@@ -6,7 +6,7 @@ If [01-Attacks on AI agents](01-Attacks%20on%20AI%20agents.md) made you nervous,
 
 **The Uncomfortable Truth: Filters Don't Hold**
 
-* **The Attacker Moves Second (October 2025):** a 14-author team including Milad Nasr, Nicholas Carlini and Florian Tramèr attacked 12 published defenses against jailbreaks and prompt injection, using adaptive attacks (gradient search, reinforcement learning, LLM-guided search) plus a human red-team contest with more than 500 participants. Most defenses fell to attack success rates above 90%, and the human red-teamers beat every challenge. One defense went from 2% attack success on a static benchmark to 96% under adaptive search.
+* **The Attacker Moves Second (October 2025):** a 14-author team including Milad Nasr, Nicholas Carlini and Florian Tramèr attacked 12 published defenses against jailbreaks and prompt injection, using adaptive attacks (gradient search, reinforcement learning, LLM-guided search) plus a human red-team contest with more than 500 participants. In the headline results most defenses fell to attack success rates of 90% or more, and the human red-teamers beat every challenge. One defense went from 5% attack success on a static benchmark to 96% under adaptive attack. Full review in [Papers/13](../Papers/13-%20The%20Attacker%20Moves%20Second%20-%20Adaptive%20Attacks%20Bypass%20LLM%20Jailbreak%20and%20Prompt%20Injection%20Defenses%20%28October%202025%29.md).
 * **AI Agents May Always Fall for Prompt Injections (May 2026):** a theoretical argument that an attacker can always make a forbidden action look legitimate in context.
 * **Takeaway:** a low score on a fixed benchmark says little about real robustness. Treat classifiers and "guard" models as one layer, never the only one.
 
