@@ -36,14 +36,20 @@ Each review summarizes the paper and ends with an "As a Reviewer, My Focus" sect
 | 13 | [The Attacker Moves Second: Adaptive Attacks Bypass LLM Defenses](13-%20The%20Attacker%20Moves%20Second%20-%20Adaptive%20Attacks%20Bypass%20LLM%20Jailbreak%20and%20Prompt%20Injection%20Defenses%20%28October%202025%29.md) | Securing AI agents | 2025 |
 | 14 | [Randomized Controlled Trials for Phishing Triage Agent](14-%20Randomized%20Controlled%20Trials%20for%20Phishing%20Triage%20Agent%20%28November%202025%29.md) | AI in the SOC | 2025 |
 | 15 | [Fully Automated Spear Phishing with LLMs, Validated on Human Subjects](15-%20Evaluating%20LLMs%27%20Capability%20to%20Launch%20Fully%20Automated%20Spear%20Phishing%20Campaigns%20%28November%202024%29.md) | Attackers using AI | 2024 |
+| 16 | [SoK: Honeypots & LLMs, More Than the Sum of Their Parts?](16-%20SoK%20-%20Honeypots%20and%20LLMs%20-%20More%20Than%20the%20Sum%20of%20Their%20Parts%20%28October%202025%29.md) | LLM honeypots | 2025 |
+| 17 | [AgentSnare: Learning to Delay, Divert and Defuse AI Pentest Agents](17-%20AgentSnare%20-%20Learning%20to%20Delay%2C%20Divert%2C%20and%20Defuse%20Autonomous%20Web%20Penetration%20Agents%20%28July%202026%29.md) | Deception vs. AI attackers | 2026 |
+| 18 | [SoK: Decoding the Enigma of Encrypted Network Traffic Classifiers](18-%20SoK%20-%20Decoding%20the%20Enigma%20of%20Encrypted%20Network%20Traffic%20Classifiers%20%28March%202025%29.md) | IDS & traffic ML | 2025 |
+| 19 | [CyberGym: Evaluating AI Agents' Cybersecurity Capabilities at Scale](19-%20CyberGym%20-%20Evaluating%20AI%20Agents%27%20Real-World%20Cybersecurity%20Capabilities%20at%20Scale%20%28June%202025%29.md) | AI vulnerability discovery | 2025 |
+| 20 | [Design Patterns for Securing LLM Agents against Prompt Injections](20-%20Design%20Patterns%20for%20Securing%20LLM%20Agents%20against%20Prompt%20Injections%20%28June%202025%29.md) | Securing AI agents | 2025 |
+| 21 | [Poisoning Attacks on LLMs Require a Near-constant Number of Poison Samples](21-%20Poisoning%20Attacks%20on%20LLMs%20Require%20a%20Near-constant%20Number%20of%20Poison%20Samples%20%28October%202025%29.md) | Data poisoning | 2025 |
 
 **Reading List (2024–2026): Strong Papers Waiting for a Review**
 
-* *Honeypots & deception:* [SoK: Honeypots & LLMs](https://arxiv.org/abs/2510.25939) · [Rouxii: Deception-Aware AI Pentesters](https://arxiv.org/abs/2609.26555) · [AgentSnare](https://arxiv.org/abs/2607.26998)
-* *Detection & SOC:* [SoK: Encrypted Traffic Classifiers](https://arxiv.org/abs/2503.20093) · [ExCyTIn-Bench](https://arxiv.org/abs/2507.14201) · [ALERT-BENCH](https://arxiv.org/abs/2610.10608)
-* *AI vulnerability research:* [CyberGym](https://arxiv.org/abs/2506.02548) · [Cybench](https://arxiv.org/abs/2408.08926)
+* *Honeypots & deception:* [Rouxii: Deception-Aware AI Pentesters](https://arxiv.org/abs/2609.26555)
+* *Detection & SOC:* [ExCyTIn-Bench](https://arxiv.org/abs/2507.14201) · [ALERT-BENCH](https://arxiv.org/abs/2610.10608)
+* *AI vulnerability research:* [Cybench](https://arxiv.org/abs/2408.08926)
 * *Attackers using AI:* [Ransomware 3.0](https://arxiv.org/abs/2508.20444)
-* *Securing AI:* [Design Patterns for Securing LLM Agents](https://arxiv.org/abs/2506.08837) · [Poisoning Requires a Near-constant Number of Samples](https://arxiv.org/abs/2510.07192) · [Indirect Prompt Injection in the Wild](https://arxiv.org/abs/2604.27202)
+* *Securing AI:* [Indirect Prompt Injection in the Wild](https://arxiv.org/abs/2604.27202)
 
 **Accessing Papers**
 
