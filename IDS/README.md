@@ -24,7 +24,7 @@ The `IDS` folder focuses on Intrusion Detection Systems (IDS), critical componen
 * [03-AI meets network detection](03-AI%20meets%20network%20detection.md) - *New in the 2026 update:* why "98% accurate" AI traffic models were mostly shortcut learning, the state of IDS datasets, whether LLMs can detect intrusions, and what changed in Suricata, Zeek, Snort and host-based detection.
 * [04-The agentic SOC](04-The%20agentic%20SOC.md) - *New in the 2026 update:* AI agents that triage alerts and investigate incidents, what the vendors shipped, and what the evidence and benchmarks actually show.
 
-Related paper review: [Papers/06 - The Sweet Danger of Sugar](../Papers/06-%20The%20Sweet%20Danger%20of%20Sugar%20-%20Debunking%20Representation%20Learning%20for%20Encrypted%20Traffic%20Classification%20%28July%202025%29.md).
+Related paper reviews: [Papers/06 - The Sweet Danger of Sugar](../Papers/06-%20The%20Sweet%20Danger%20of%20Sugar%20-%20Debunking%20Representation%20Learning%20for%20Encrypted%20Traffic%20Classification%20%28July%202025%29.md), [Papers/14 - Phishing triage RCT](../Papers/14-%20Randomized%20Controlled%20Trials%20for%20Phishing%20Triage%20Agent%20%28November%202025%29.md) and [Papers/18 - SoK: Encrypted traffic classifiers](../Papers/18-%20SoK%20-%20Decoding%20the%20Enigma%20of%20Encrypted%20Network%20Traffic%20Classifiers%20%28March%202025%29.md).
 
 **Understanding and Implementing IDS**
 

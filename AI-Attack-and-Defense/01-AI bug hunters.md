@@ -36,7 +36,7 @@ Labs use different settings, so treat these as trends, not exact comparisons.
 |---|---|---|
 | [Cybench](https://arxiv.org/abs/2408.08926) | 40 capture-the-flag tasks | ~36% (early 2025) to ~77% (late 2025); now close to saturated |
 | [CVE-Bench](https://arxiv.org/abs/2503.17332) | Exploiting real web-app CVEs | 13% at release (March 2025) to 90% (February 2026) |
-| [CyberGym](https://arxiv.org/abs/2506.02548) | Reproducing 1,507 real vulnerabilities | ~20% at release (June 2025) to 83.1% (April 2026) |
+| [CyberGym](https://arxiv.org/abs/2506.02548) ([review](../Papers/19-%20CyberGym%20-%20Evaluating%20AI%20Agents%27%20Real-World%20Cybersecurity%20Capabilities%20at%20Scale%20%28June%202025%29.md)) | Reproducing 1,507 real vulnerabilities | 11.9% at release (June 2025), ~20% in the ICLR 2026 version, 83.1% in a lab's own test (April 2026); now close to saturated |
 | [BountyBench](https://arxiv.org/abs/2505.15216) | Detect, exploit and patch real bug-bounty bugs | Patching (90%) far easier than detecting (12.5%) |
 | [ExploitGym](https://arxiv.org/abs/2605.11086) ([review](../Papers/12-%20ExploitGym%20-%20Can%20AI%20Agents%20Turn%20Security%20Vulnerabilities%20into%20Real%20Attacks%20%28May%202026%29.md)) | Turning 898 known crashes into working exploits | Best model 157 of 898; scores collapse when exploit mitigations are on |
 

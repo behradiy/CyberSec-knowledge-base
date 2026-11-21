@@ -14,13 +14,13 @@ If [01-Attacks on AI agents](01-Attacks%20on%20AI%20agents.md) made you nervous,
 
 * **Break the lethal trifecta:** remove at least one of private data, untrusted input or the ability to send data out.
 * **Meta's "Agents Rule of Two" (October 2025):** in any single session, an agent should have at most *two* of these three: (A) processing untrusted input, (B) access to sensitive data or systems, (C) the ability to change things or communicate externally. If a task needs all three, require human approval or start a fresh context.
-* **Design Patterns for Securing LLM Agents (June 2025):** a 14-author paper describing six reusable patterns:
-  * **Action-Selector:** the agent may only choose from a fixed menu of actions.
-  * **Plan-Then-Execute:** the plan is fixed before any untrusted data is read.
-  * **LLM Map-Reduce:** untrusted documents are processed in isolated sub-calls.
+* **Design Patterns for Securing LLM Agents (June 2025):** a 14-author paper describing six reusable patterns (full review in [Papers/20](../Papers/20-%20Design%20Patterns%20for%20Securing%20LLM%20Agents%20against%20Prompt%20Injections%20%28June%202025%29.md)):
+  * **Action-Selector:** the agent only maps the request to predefined actions, and their outputs are never fed back to it.
+  * **Plan-Then-Execute:** the plan is fixed before any untrusted data is read, though injected data can still change the arguments of planned calls.
+  * **LLM Map-Reduce:** each untrusted document goes to an isolated, tool-less LLM call with a constrained output (such as yes/no), and the results are combined afterwards.
   * **Dual LLM:** a privileged model never sees untrusted text; a quarantined model processes it but has no tools.
-  * **Code-Then-Execute:** the model writes a program, and the program (not the model) touches the data.
-  * **Context-Minimization:** remove the user's original prompt once it's no longer needed.
+  * **Code-Then-Execute:** the model writes a program before seeing the data; the program, which can call tools and quarantined LLMs, then runs on the data.
+  * **Context-Minimization:** remove unnecessary content, such as the user's original prompt, once it's no longer needed.
 * **CaMeL (Google DeepMind, March 2025):** the most complete version of the Dual LLM idea. A privileged model turns the user's request into a small program. A quarantined model parses untrusted data. A custom interpreter tracks where every value came from and enforces security policies before each tool call. It solved 77% of tasks with provable security, against 84% with no defense, at roughly 2.7–2.8× the token cost. Full review in [Papers/08](../Papers/08-%20Defeating%20Prompt%20Injections%20by%20Design%20%28March%202025%29.md).
 
 **Practical Checklist for Anyone Deploying an Agent**

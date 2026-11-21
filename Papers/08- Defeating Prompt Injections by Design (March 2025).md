@@ -34,6 +34,6 @@ CaMeL shows that you don't have to win the arms race of detecting malicious prom
 
 **Further Exploration**
 
-* [Design Patterns for Securing LLM Agents against Prompt Injections](https://arxiv.org/abs/2506.08837) (generalizes the idea into six patterns)
+* [Design Patterns for Securing LLM Agents against Prompt Injections](20-%20Design%20Patterns%20for%20Securing%20LLM%20Agents%20against%20Prompt%20Injections%20%28June%202025%29.md) (presents CaMeL as an instance of one of six patterns, Code-Then-Execute)
 * [The Attacker Moves Second](https://arxiv.org/abs/2510.09023) (why detection-based defenses fail)
 * [Meta's Agents Rule of Two](https://ai.meta.com/blog/practical-ai-agent-security/)

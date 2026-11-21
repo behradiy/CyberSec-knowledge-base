@@ -79,7 +79,7 @@ Machine learning is the reason this repository exists. It can help an IDS spot a
     * **Reproduce a shortcut:** train on [CIC-IDS2017](https://www.unb.ca/cic/datasets/ids-2017.html) and on the [corrected version](https://intrusion-detection.distrinet-research.be/CNS2022/). Try it with and without IPs, ports and timestamps, and with random vs. day-based splits, and watch how the results change.
     * **Cross-dataset test:** train on one [NetFlow v3 dataset](https://staff.itee.uq.edu.au/marius/NIDS_datasets/) and test on another. All four share the same 53 features.
     * **Extract your own features:** run [NFStream](https://www.nfstream.org/) or Zeek on raw captures (for example from [CIC-IoT2023](https://www.unb.ca/cic/datasets/iotdataset-2023.html)) and compare with the provided CSVs.
-    * **Explain an encrypted-traffic model:** train on [CipherSpectrum](https://cgi.cse.unsw.edu.au/~cspectrum/) and use [SHAP](https://shap.readthedocs.io/en/latest/) to check whether it learned something real or just the cipher suite.
+    * **Explain an encrypted-traffic model:** train on [CipherSpectrum](https://cgi.cse.unsw.edu.au/~cspectrum/) and use [SHAP](https://shap.readthedocs.io/en/latest/) to check whether it learned something real or just shortcuts such as IP addresses or the SNI (see the review in [Papers/18](../Papers/18-%20SoK%20-%20Decoding%20the%20Enigma%20of%20Encrypted%20Network%20Traffic%20Classifiers%20%28March%202025%29.md)).
 
 **Beyond the Roadmap:**
 

@@ -11,7 +11,7 @@ Born from my B.Sc. final project at the University of Tabriz. Fully updated for 
 
 [![Last commit](https://img.shields.io/github/last-commit/behradiy/CyberSec-knowledge-base?style=flat-square&label=last%20update)](https://github.com/behradiy/CyberSec-knowledge-base/commits/main)
 [![Articles](https://img.shields.io/badge/articles-21-2ea44f?style=flat-square)](#contents)
-[![Paper reviews](https://img.shields.io/badge/paper%20reviews-15-8957e5?style=flat-square)](Papers/)
+[![Paper reviews](https://img.shields.io/badge/paper%20reviews-21-8957e5?style=flat-square)](Papers/)
 [![Timeline](https://img.shields.io/badge/timeline-Jul%202024%20%E2%86%92%20Nov%202026-0969da?style=flat-square)](Timeline%202024-2026.md)
 [![Stars](https://img.shields.io/github/stars/behradiy/CyberSec-knowledge-base?style=flat-square)](https://github.com/behradiy/CyberSec-knowledge-base)
 
@@ -108,7 +108,7 @@ Prompt injection, poisoned tools and hijacked agents, plus the design patterns a
 
 Summaries and critical reviews of research papers, from a 2004 honeypot design to 2026 benchmarks, plus a reading list.
 
-**15 reviews** · `NEW` 04–15
+**21 reviews** · `NEW` 04–21
 
 </td>
 <td width="50%" valign="top">
@@ -191,11 +191,11 @@ Not sure where to begin? Pick the path that fits you and follow it top to bottom
 
 1. [Dynamic honeypot design (2004)](Papers/01-%20A%20Dynamic%20Honeypot%20Design%20for%20Intrusion%20Detection%20%28July%202004-%20review%20paper%29.md)
 2. [RL dynamic honeypots for IoBT (2021)](Papers/03-%20Reinforcement%20Learning-assisted%20Threshold%20Optimization%20for%20Dynamic%20Honeypot%20Adaptation%20to%20Enhance%20IoBT%20Networks%20Security%20%28December%202021%29.md)
-3. [Hypergame deep RL honey drones (2026)](Papers/11-%20Cyber%20Deception%20for%20Mission%20Surveillance%20via%20Hypergame-Theoretic%20Deep%20Reinforcement%20Learning%20%28March%202026%29.md)
-4. [LLM Agent Honeypot (2024)](Papers/10-%20LLM%20Agent%20Honeypot%20-%20Monitoring%20AI%20Hacking%20Agents%20in%20the%20Wild%20%28October%202024%29.md)
-5. [Cloak, Honey, Trap (2025)](Papers/04-%20Cloak%2C%20Honey%2C%20Trap%20-%20Proactive%20Defenses%20Against%20LLM%20Agents%20%28August%202025%29.md)
-6. [Honeyval (2026)](Papers/05-%20Honeyval%20-%20A%20Comprehensive%20Evaluation%20Framework%20for%20LLM-powered%20HTTP%20Honeypots%20%28May%202026%29.md)
-7. [The Sweet Danger of Sugar (2025)](Papers/06-%20The%20Sweet%20Danger%20of%20Sugar%20-%20Debunking%20Representation%20Learning%20for%20Encrypted%20Traffic%20Classification%20%28July%202025%29.md)
+3. [SoK: Honeypots & LLMs (2025)](Papers/16-%20SoK%20-%20Honeypots%20and%20LLMs%20-%20More%20Than%20the%20Sum%20of%20Their%20Parts%20%28October%202025%29.md)
+4. [Hypergame deep RL honey drones (2026)](Papers/11-%20Cyber%20Deception%20for%20Mission%20Surveillance%20via%20Hypergame-Theoretic%20Deep%20Reinforcement%20Learning%20%28March%202026%29.md)
+5. [LLM Agent Honeypot (2024)](Papers/10-%20LLM%20Agent%20Honeypot%20-%20Monitoring%20AI%20Hacking%20Agents%20in%20the%20Wild%20%28October%202024%29.md)
+6. [AgentSnare (2026)](Papers/17-%20AgentSnare%20-%20Learning%20to%20Delay%2C%20Divert%2C%20and%20Defuse%20Autonomous%20Web%20Penetration%20Agents%20%28July%202026%29.md)
+7. [Honeyval (2026)](Papers/05-%20Honeyval%20-%20A%20Comprehensive%20Evaluation%20Framework%20for%20LLM-powered%20HTTP%20Honeypots%20%28May%202026%29.md)
 8. [The reading list](Papers/README.md)
 
 </td>
@@ -266,7 +266,7 @@ Click a section to see every article in it.
 </details>
 
 <details>
-<summary><b>📄 Paper Reviews</b> · 15 reviews</summary>
+<summary><b>📄 Paper Reviews</b> · 21 reviews</summary>
 <br>
 
 | # | Paper | Topic | Year |
@@ -286,6 +286,12 @@ Click a section to see every article in it.
 | 13 | [The Attacker Moves Second](Papers/13-%20The%20Attacker%20Moves%20Second%20-%20Adaptive%20Attacks%20Bypass%20LLM%20Jailbreak%20and%20Prompt%20Injection%20Defenses%20%28October%202025%29.md) `NEW` | Securing AI agents | 2025 |
 | 14 | [Randomized Controlled Trials for Phishing Triage Agent](Papers/14-%20Randomized%20Controlled%20Trials%20for%20Phishing%20Triage%20Agent%20%28November%202025%29.md) `NEW` | AI in the SOC | 2025 |
 | 15 | [Fully Automated Spear Phishing with LLMs](Papers/15-%20Evaluating%20LLMs%27%20Capability%20to%20Launch%20Fully%20Automated%20Spear%20Phishing%20Campaigns%20%28November%202024%29.md) `NEW` | Attackers using AI | 2024 |
+| 16 | [SoK: Honeypots & LLMs, More Than the Sum of Their Parts?](Papers/16-%20SoK%20-%20Honeypots%20and%20LLMs%20-%20More%20Than%20the%20Sum%20of%20Their%20Parts%20%28October%202025%29.md) `NEW` | LLM honeypots | 2025 |
+| 17 | [AgentSnare: Learning to Delay, Divert and Defuse AI Pentest Agents](Papers/17-%20AgentSnare%20-%20Learning%20to%20Delay%2C%20Divert%2C%20and%20Defuse%20Autonomous%20Web%20Penetration%20Agents%20%28July%202026%29.md) `NEW` | Deception vs. AI attackers | 2026 |
+| 18 | [SoK: Decoding the Enigma of Encrypted Network Traffic Classifiers](Papers/18-%20SoK%20-%20Decoding%20the%20Enigma%20of%20Encrypted%20Network%20Traffic%20Classifiers%20%28March%202025%29.md) `NEW` | IDS & traffic ML | 2025 |
+| 19 | [CyberGym: Evaluating AI Agents' Cybersecurity Capabilities at Scale](Papers/19-%20CyberGym%20-%20Evaluating%20AI%20Agents%27%20Real-World%20Cybersecurity%20Capabilities%20at%20Scale%20%28June%202025%29.md) `NEW` | AI vulnerability discovery | 2025 |
+| 20 | [Design Patterns for Securing LLM Agents against Prompt Injections](Papers/20-%20Design%20Patterns%20for%20Securing%20LLM%20Agents%20against%20Prompt%20Injections%20%28June%202025%29.md) `NEW` | Securing AI agents | 2025 |
+| 21 | [Poisoning Attacks on LLMs Require a Near-constant Number of Poison Samples](Papers/21-%20Poisoning%20Attacks%20on%20LLMs%20Require%20a%20Near-constant%20Number%20of%20Poison%20Samples%20%28October%202025%29.md) `NEW` | Data poisoning | 2025 |
 
 More strong papers that are waiting for a review are in the [reading list](Papers/README.md).
 

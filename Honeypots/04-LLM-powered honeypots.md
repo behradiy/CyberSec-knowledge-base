@@ -6,9 +6,9 @@ Back in 2024, the "intelligent honeypot" in this folder was mostly a promise. Si
 
 **How an LLM Honeypot Works (the Three-Part Hive)**
 
-The 2025 systematization paper by Bridges et al. ("SoK: Honeypots & LLMs") describes a common architecture that most of these tools share:
+The 2025 systematization paper by Bridges et al. ("SoK: Honeypots & LLMs", full review in [Papers/16](../Papers/16-%20SoK%20-%20Honeypots%20and%20LLMs%20-%20More%20Than%20the%20Sum%20of%20Their%20Parts%20%28October%202025%29.md)) pieces together a reference architecture from the patterns these tools use; no single open-source tool implements all of it yet. Its core comes down to three jobs:
 
-* **Filter:** Simple, common commands (`ls`, `whoami`, `uname -a`) are answered by fast static rules. This is cheap and quick.
+* **Filter:** Decides whether a command needs the LLM at all. Scanners and simple or repeated commands (`ls`, `whoami`, `uname -a`) get fast, deterministic answers, which is cheaper and also limits prompt injection and runaway API bills.
 * **State:** A memory of what the attacker has already done (files created, directories visited, users added), so the fake system stays consistent.
 * **Generator:** The LLM writes a response for everything else, guided by a system prompt that describes the pretend machine ("you are an Ubuntu 22.04 web server for a small logistics company...").
 
@@ -25,7 +25,7 @@ The 2025 systematization paper by Bridges et al. ("SoK: Honeypots & LLMs") descr
 
 **Does It Actually Work? The Evidence**
 
-For a long time the only evidence was "it looks convincing to me". In May 2026, researchers from ETH Zurich and Google published **Honeyval**, the first proper benchmark (full review in [Papers/05](../Papers/05-%20Honeyval%20-%20A%20Comprehensive%20Evaluation%20Framework%20for%20LLM-powered%20HTTP%20Honeypots%20%28May%202026%29.md)). They attacked LLM honeypots with AI hacking agents that had clear goals, and found:
+For a long time the evidence was a patchwork of small user studies and short field deployments, each measured differently (the SoK in [Papers/16](../Papers/16-%20SoK%20-%20Honeypots%20and%20LLMs%20-%20More%20Than%20the%20Sum%20of%20Their%20Parts%20%28October%202025%29.md) collects them). In May 2026, researchers from ETH Zurich and Google published **Honeyval**, the first proper benchmark (full review in [Papers/05](../Papers/05-%20Honeyval%20-%20A%20Comprehensive%20Evaluation%20Framework%20for%20LLM-powered%20HTTP%20Honeypots%20%28May%202026%29.md)). They attacked LLM honeypots with AI hacking agents that had clear goals, and found:
 
 * **Longer engagement:** about 78.5 attacker requests per session for LLM honeypots against 30.7 for a rule-based honeypot, roughly 2.6× more attacker time wasted.
 * **Harder to spot:** the AI attackers flagged LLM honeypots as fake only about 24% of the time, compared with 97–99% for the rule-based baseline.

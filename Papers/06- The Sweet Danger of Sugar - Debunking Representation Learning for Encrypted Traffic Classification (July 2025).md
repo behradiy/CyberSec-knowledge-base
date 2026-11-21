@@ -28,7 +28,7 @@ The impressive results were mostly caused by data-preparation mistakes that let 
 
 **As a Reviewer, My Focus**
 
-* **No intrusion-detection task:** all experiments are traffic *classification* on legacy datasets, which a separate S&P 2025 study showed are largely unencrypted (ISCXVPN2016 is 98.9% plaintext). Repeating the analysis on an actual NIDS task, with attack traffic, would make the paper directly useful for IDS developers.
+* **No intrusion-detection task:** all experiments are traffic *classification* on legacy datasets, which a separate S&P 2025 study showed are largely unencrypted (98.9% of ISCXVPN2016 sessions use no TLS, DTLS or QUIC; see [Papers/18](18-%20SoK%20-%20Decoding%20the%20Enigma%20of%20Encrypted%20Network%20Traffic%20Classifiers%20%28March%202025%29.md)). Repeating the analysis on an actual NIDS task, with attack traffic, would make the paper directly useful for IDS developers.
 * **Is the protocol fair to flow-level models?** Some models, such as netFound, are designed for whole flows, not single packets. Fed one packet repeated five times, netFound naturally does badly. At the flow level with fine-tuning it reached 90.8% on the same TLS task, and the netFound authors dispute the conclusion in their 2026 version. A section evaluating each model at the granularity it was designed for would strengthen the argument.
 * **What comes next is unclear:** per-flow splits still don't test drift over time or transfer between networks, which is what matters in deployment. And since the proposed Pcap-Encoder loses to shallow models, the paper leaves open whether pretraining helps network security at all.
 
